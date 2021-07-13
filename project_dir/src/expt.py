@@ -18,12 +18,12 @@ train.to_csv(folder + '/train.csv', index=False)
 test.to_csv(folder + '/test.csv', index=False)
 
 
-# training a decision tree classifier
+# training a Random forest classifier
 x_train = train.copy().drop('Class', axis=1)
 y_train = train['Class']
 
-from sklearn.tree import DecisionTreeClassifier
-clf = DecisionTreeClassifier(criterion='entropy', random_state=3)
+from sklearn.ensemble import RandomForestClassifier
+clf = RandomForestClassifier(random_state=3)
 clf.fit(x_train, y_train)
 
 
