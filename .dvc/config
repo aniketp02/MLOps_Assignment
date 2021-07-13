@@ -4,3 +4,5 @@
     remote = storage
 ['remote "storage"']
     url = s3://mlopsassignment20d070011/metricstore
+['remote "model"']
+    url = s3://mlopsassignment20d070011/modelstore
