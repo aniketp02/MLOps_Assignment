@@ -4,3 +4,5 @@
     remote = storage
 ['remote "storage"']
     url = s3://mlopsassignment20d070011/datastore
+['remote "models"']
+    url = s3://mlopsassignment20d070011/modelstore
