@@ -1,1 +1,9 @@
 /apoklegitprojectsexternal_cache
+rootkey.csv
+.env
+server/.env
+server/__pycache__
+server/*.pkl
+project_dir/src/.ipynb_checkpoints
+project_dir/src/mlruns/
+data/test.csv
